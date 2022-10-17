@@ -1,0 +1,119 @@
+.songModeInnerContainer {
+  margin-top: 80px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 20px auto 20px;
+  grid-template-rows: auto 200px 20px;
+}
+
+.songModeContainer {
+  background: rgb(65, 64, 64);
+  border: 1px solid black;
+  min-width: 720px;
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  max-height: 568px;
+  overflow-y: scroll;
+}
+
+.songModeContainerSpacer {
+  width: 10px;
+  min-height: 400px;
+  max-height: 568px;
+}
+
+.songModeContainerPatterns {
+  background: rgb(65, 64, 64);
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.songModeInstrumentItem,
+.songModeInstrumentItemActive,
+.songModeInstrumentItemFiller {
+  background: rgb(65, 64, 64);
+  margin: 5px;
+  border: 0.5px solid black;
+  width: 100%;
+  height: 50px;
+  display: grid;
+  grid-template-columns: 120px auto;
+}
+
+.songModeInstrumentItemActive {
+  border: 0.5px solid rgb(169, 255, 148);
+}
+
+.songModeInstrumentItemFiller {
+  height: 100%;
+  background-color: #363636;
+}
+
+.songModePatternItemContainer {
+  margin: 5px;
+}
+
+.songModePatternItem {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.songModeInstrumentControls,
+.songModeInstrumentControlsFiller {
+  background: rgb(92, 89, 89);
+  color: white;
+  border-right: 1px solid black;
+  width: 120px;
+  height: 50px;
+}
+
+.songModeInstrumentControlsFiller {
+  height: 100%;
+}
+
+.songModeTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  border-bottom: 1px solid rgb(207, 207, 207);
+  color: rgb(207, 207, 207);
+  height: 18px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.songModePatternTitleText {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: lighter;
+  letter-spacing: 0.5px;
+  stroke-width: 1px;
+}
+
+.songModeInstrumentGrid {
+  width: 100%;
+  height: 50px;
+  background-color: #363636;
+}
+
+.songModeInstrumentGridFiller {
+  width: 100%;
+  height: 100%;
+  background-color: #363636;
+}
+
+.songModePatternCloseIcon:hover {
+  background-color: red;
+}
+
+.songModePatternResizeEdge:hover {
+  cursor: ew-resize;
+}
+

@@ -1,0 +1,112 @@
+/* color0, Green */
+
+.color0.sequencerCellActive,
+.color0.sequencerCellActiveAlien,
+.color0.sequencerCellResize,
+.color0.songModePatternResizeEdge,
+.color0.patternBody {
+    fill: #5feb76;
+}
+
+.color0.patternHeader {
+    fill: #3a8d47;
+}
+
+.color0.patternLoop {
+    fill: #579e63;
+}
+
+
+/* color1, Pink */
+
+.color1.sequencerCellActive,
+.color1.sequencerCellActiveAlien,
+.color1.sequencerCellResize,
+.color1.songModePatternResizeEdge,
+.color1.patternBody {
+    fill: #cc00cc;
+}
+
+.color1.patternHeader {
+    fill: #660066;
+}
+
+.color1.patternLoop {
+    fill: #990099;
+}
+
+
+/* color2, Blue */
+
+.color2.sequencerCellActive,
+.color2.sequencerCellActiveAlien,
+.color2.sequencerCellResize,
+.color2.songModePatternResizeEdge,
+.color2.patternBody {
+    fill: #0000ff;
+}
+
+.color2.patternHeader {
+    fill: #000066;
+}
+
+.color2.patternLoop {
+    fill: #0000b3;
+}
+
+
+/* color3, Red */
+
+.color3.sequencerCellActive,
+.color3.sequencerCellActiveAlien,
+.color3.sequencerCellResize,
+.color3.songModePatternResizeEdge,
+.color3.patternBody {
+    fill: #ff3300;
+}
+
+.color3.patternHeader {
+    fill: #801a00;
+}
+
+.color3.patternLoop {
+    fill: #cc2900;
+}
+
+
+/* color4, Yellow */
+
+.color4.sequencerCellActive,
+.color4.sequencerCellActiveAlien,
+.color4.sequencerCellResize,
+.color4.songModePatternResizeEdge,
+.color4.patternBody {
+    fill: #ffff00;
+}
+
+.color4.patternHeader {
+    fill: #999900;
+}
+
+.color4.patternLoop {
+    fill: #e6e600;
+}
+
+
+/* color5, Orange */
+
+.color5.sequencerCellActive,
+.color5.sequencerCellActiveAlien,
+.color5.sequencerCellResize,
+.color5.songModePatternResizeEdge,
+.color5.patternBody {
+    fill: #ff8000;
+}
+
+.color5.patternHeader {
+    fill: #994d00;
+}
+
+.color5.patternLoop {
+    fill: #ff9933;
+}

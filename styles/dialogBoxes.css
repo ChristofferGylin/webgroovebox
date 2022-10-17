@@ -1,0 +1,179 @@
+.dialogBoxTextInput {
+    
+    margin: auto;
+    
+}
+
+.newAuxChannelDialogBox {
+    background-color: rgb(148, 148, 151);
+    border: 1px solid rgb(226, 226, 226);
+    width: 200px;
+    height: 100px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    display: block;
+    z-index: 99999;
+    
+}
+
+.newAuxChannelInnerContainer {
+    position: relative;
+    background-color: rgb(118, 118, 119);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(207, 207, 207);
+    height: 82px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.newAuxChannelButtons {
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: none;
+    margin: auto;
+   
+}
+
+.dialogBox {
+    background-color: rgb(148, 148, 151);
+    border: 1px solid rgb(226, 226, 226);
+    width: 250px;
+    height: 150px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    display: block;
+    z-index: 99999;
+    
+}
+
+.newSendInnerContainer {
+    position: relative;
+    background-color: rgb(118, 118, 119);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(207, 207, 207);
+    height: 132px; 
+    display: block;
+    text-align: center;
+    
+}
+
+.auxChannelList {
+    background-color: rgb(136, 135, 135);
+    border: 1px solid rgb(66, 66, 66);
+    border-radius: 3px;
+    justify-content: left;
+    align-content: left;
+    align-items: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: white;
+    text-align: left;
+    height: 80px;
+    width: 235px; 
+    overflow-y: scroll;
+    margin: auto;
+}
+
+.auxChannelItem {
+border-bottom: 0.5px solid rgb(212, 212, 212);
+background-color: rgb(126, 125, 125);
+
+}
+
+.auxChannelItemSelected {
+    border-bottom: 0.5px solid rgb(212, 212, 212);
+    background-color: rgb(102, 102, 255);
+
+}
+
+.insertFxItem {
+    
+    border-bottom: 0.5px solid rgb(212, 212, 212);
+    background-color: rgb(126, 125, 125);
+    display: grid;
+    grid-template-columns: auto 7px 7px 7px;
+    
+}
+
+
+
+.insertFxItemSelected {
+    
+    border-bottom: 0.5px solid rgb(212, 212, 212);
+    background-color: rgb(102, 102, 255);
+    display: grid;
+    grid-template-columns: auto 7px 7px 7px;
+
+}
+
+.newSendButtons {
+    height: 35px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: none;
+   
+}
+.newInstrumentDialog {
+    background-color: rgb(148, 148, 151);
+    border: 1px solid rgb(226, 226, 226);
+    width: 500px;
+    height: 300px;
+    position: fixed;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    display: block;
+    z-index: 99999;
+    
+}
+
+.dialogTitle {
+    background-color: rgb(69, 69, 70);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(207, 207, 207);
+    height: 18px;  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.instrumentsInnerContainer {
+    background-color: rgb(118, 118, 119);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(207, 207, 207);
+    height: 100%;  
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    overflow-y: scroll;
+}
+
+.newInstrument {
+    width: 80px;
+    height: 60px;
+    background-color: rgb(105, 105, 139);
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 12px;
+    margin: 10px;
+    padding: 5px;
+
+}
