@@ -13,7 +13,7 @@ if (main.newProject) {
     let fx = new Reverb;
     project.mixer.auxChannels[0].disconnectFx();
     project.mixer.auxChannels[0].insertFx.push(fx);
-   
+
     project.mixer.auxChannels[0].insertFx[0].fx.wet.value = 1;
     project.mixer.auxChannels[0].insertFx[0].knobValueWet = 1;
     project.mixer.auxChannels[0].connectFx();
@@ -26,5 +26,11 @@ if (main.newProject) {
 }
 console.log(project);
 main.initApp();
+
+document.addEventListener('keypress', (e) => {
+    if (e.key === 'p') {
+        console.log(project);
+    }
+})
 
 export { project };
