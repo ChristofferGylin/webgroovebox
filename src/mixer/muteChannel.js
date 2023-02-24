@@ -19,11 +19,11 @@ export function muteChannel(e) {
                     project.mixer.channels[project.activeInstrument].master.output.gain.value = 1;
 
                 }
-                
+
                 target.setAttribute('fill', '#efefef');
 
             } else if (project.mixer.channels[project.activeInstrument].master.mute === false) {
-                
+
                 project.mixer.channels[project.activeInstrument].master.mute = true;
                 project.mixer.channels[project.activeInstrument].master.output.gain.value = 0;
                 target.setAttribute('fill', '#6AFC00');
@@ -32,10 +32,10 @@ export function muteChannel(e) {
         } else {
 
             target = document.getElementById('channelStripMaster.muteText');
-            
+
             if (project.mixer.master.mute === true) {
 
-                
+
                 project.mixer.master.mute = false;
 
                 if (project.mixer.master.soloMuted === false) {
@@ -44,12 +44,12 @@ export function muteChannel(e) {
 
                 }
 
-                
+
                 target.setAttribute('fill', '#efefef');
 
             } else if (project.mixer.master.mute === false) {
 
-                
+
                 project.mixer.master.mute = true;
                 project.mixer.master.output.gain.value = 0;
                 target.setAttribute('fill', '#6AFC00');
@@ -74,7 +74,7 @@ export function muteChannel(e) {
 
                     }
 
-                    
+
                     target.setAttribute('fill', '#efefef');
 
                 } else if (project.mixer.channels[idSplit[2]].master.mute === false) {
@@ -95,7 +95,7 @@ export function muteChannel(e) {
                         project.mixer.channels[idSplit[2]].channels[idSplit[3] - 1].output.gain.value = 1;
 
                     }
-                    
+
                     target.setAttribute('fill', '#efefef');
 
                 } else if (project.mixer.channels[idSplit[2]].channels[idSplit[3] - 1].mute === false) {
@@ -116,7 +116,7 @@ export function muteChannel(e) {
                     project.mixer.auxChannels[auxChannelNr].output.gain.value = 1;
 
                 }
-                
+
                 target.setAttribute('fill', '#efefef');
             } else if (project.mixer.auxChannels[auxChannelNr].mute === false) {
                 project.mixer.auxChannels[auxChannelNr].mute = true;
@@ -124,9 +124,5 @@ export function muteChannel(e) {
                 target.setAttribute('fill', '#6AFC00');
             }
         }
-
-
-
-
     }
 }

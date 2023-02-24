@@ -67,10 +67,10 @@ export function drawSequencer() {
             if (i >= project.instrumentsArray[project.activeInstrument].kits[project.instrumentsArray[project.activeInstrument].activeKit].drums.length) {
 
                 divClass = 'class="drumnameDummy"';
-                this.html += `<div ${divClass} style="height:${this.cellHeight}px"></div>`;
+                this.html += `<div ${divClass} style="height:${this.cellHeight + 0.11}px"></div>`;
             } else {
 
-                this.html += `<div ${divClass} style="height:${this.cellHeight}px" data-note="${i}">${project.instrumentsArray[project.activeInstrument].kits[project.instrumentsArray[project.activeInstrument].activeKit].drums[i][0]}</div>`;
+                this.html += `<div ${divClass} style="height:${this.cellHeight + 0.11}px" data-note="${i}">${project.instrumentsArray[project.activeInstrument].kits[project.instrumentsArray[project.activeInstrument].activeKit].drums[i][0]}</div>`;
             }
 
         }
@@ -94,7 +94,7 @@ export function drawSequencer() {
                     divClass = `class="rollWhitenote"`
                 }
 
-                this.html += `<div ${divClass} style="height:${this.cellHeight}px" data-note="${note + octave}">`;
+                this.html += `<div ${divClass} style="height:${this.cellHeight + 0.1}px" data-note="${note + octave}">`;
                 if (note === 'C') {
                     this.html += `${note + octave}</div>`;
                 } else {

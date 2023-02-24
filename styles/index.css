@@ -4,7 +4,7 @@
     --regular-line-color: rgb(100, 100, 100);
     --strong-line-color: rgb(177, 177, 177);
     --display-background-color: #66cc00;
-    --cell-height: 10px;
+    --cell-height: 20px;
     --control-cell-height: 20px;
     --control-container-height: 42px;
     --timeline-background: rgb(82, 82, 82);
@@ -895,7 +895,7 @@ display: block;
     display: flex;
     justify-content: center;
     border: 0px;
-    
+    max-width: 1024px;
     margin: auto;
 }
 
