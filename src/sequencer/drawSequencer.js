@@ -67,10 +67,10 @@ export function drawSequencer() {
             if (i >= project.instrumentsArray[project.activeInstrument].kits[project.instrumentsArray[project.activeInstrument].activeKit].drums.length) {
 
                 divClass = 'class="drumnameDummy"';
-                this.html += `<div ${divClass} style="height:${this.cellHeight + 0.11}px"></div>`;
+                this.html += `<div ${divClass} style="height:${this.cellHeight}px"></div>`;
             } else {
 
-                this.html += `<div ${divClass} style="height:${this.cellHeight + 0.11}px" data-note="${i}">${project.instrumentsArray[project.activeInstrument].kits[project.instrumentsArray[project.activeInstrument].activeKit].drums[i][0]}</div>`;
+                this.html += `<div ${divClass} style="height:${this.cellHeight}px" data-note="${i}">${project.instrumentsArray[project.activeInstrument].kits[project.instrumentsArray[project.activeInstrument].activeKit].drums[i][0]}</div>`;
             }
 
         }
