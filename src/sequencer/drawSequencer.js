@@ -468,11 +468,7 @@ export function drawSequencer() {
 
     }
 
-    document.getElementById('scrollContainer').addEventListener('scroll', function (e) {
 
-        document.getElementById('sequencerAutomationCells').scrollLeft = e.target.scrollLeft;
-
-    });
 
     document.getElementById('sequencerAutomationCells').addEventListener('scroll', function (e) {
 

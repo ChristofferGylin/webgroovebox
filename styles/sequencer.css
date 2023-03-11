@@ -7,7 +7,7 @@
 .scrollContainer
 {
     overflow-x: hidden;
-    overflow-y: auto; 
+    overflow-y: hidden; 
     float: left;
 }
 
@@ -26,7 +26,7 @@
     height: 100%;
   /*  min-height: 400px;
     max-height: 571px;
-    */overflow-y: scroll;  
+    */overflow-y: hide;  
     display: grid;
     grid-template-columns: 67px auto;
 }
@@ -242,12 +242,13 @@
 
 .sequencerAutomationCells {
     overflow-x: scroll;
-    overflow-y: scroll;
+    overflow-y: hidden;
 }
 
 .sequencerAutomationCellsContentHidden {
+    position: relative;
     height: 0;
-    visibility: hidden;
+    
 }
 
 .sequencerAutomationCellsContent {
